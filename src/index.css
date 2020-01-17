@@ -1,0 +1,67 @@
+body {
+  background-color: #ab7dff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+.navbar {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  background-color: rgba(1, 1, 1, 0.3);
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+/*---------------list----------------*/
+.list {
+}
+
+.list-container {
+  background-color: #e9e9e9;
+  margin-left: 0.5rem;
+}
+
+.list-title {
+  padding: 15px;
+}
+
+/*---------------task----------------*/
+.tasks {
+  width: 20rem;
+  display: flex;
+  flex-direction: column
+}
+
+.task {
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.task-text {
+  padding: 10px;
+  width: 19rem;
+}
+
+/*------------------------------------*/
+.add-button {
+  background-color: rgba(1, 1, 1, 0.2);
+  border: 0;
+  color: #ffffff;
+  width: 20rem;
+  height: 25px;
+}
+
+.add-button:hover {
+  background-color: rgba(1, 1, 1, 0.4);
+}
+
+#add-list {
+  margin-left: 0.5rem;
+}
